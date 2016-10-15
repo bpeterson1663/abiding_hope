@@ -1,0 +1,60 @@
+body{
+  
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top-row img{
+    display: inline;
+}
+.buy-now{
+    float: right;
+    width: 150px;
+    margin: 20px 0;
+}
+.author{
+    float: left;
+    left: 0;
+    right: auto;
+    margin: 20px 0;
+}
+.social-media{
+    text-align: center;
+    margin: 10px auto;
+}
+.social-media img{
+    display: inline;
+    margin: 0 5px;
+    width: 55px;
+}
+
+a:active, a:hover, a:visited{
+    background-color: none;
+    border: none;
+}
+
+@media screen and (max-width: 992px) {
+    .top-row{
+        margin-top: 20px;
+    }
+    .author{
+        float: left;
+        width:100px;
+        margin: 5px;
+    }
+    .buy-now{
+        float: right;
+        width: 100px;
+        margin: 5px;
+    }
+    .social-media img{ 
+        margin: 0 5px;
+        display: inline;
+        width: 45px;
+    }
+
+} 
