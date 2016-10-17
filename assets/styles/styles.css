@@ -16,6 +16,7 @@ body{
     width: 150px;
     margin: 20px 0;
 }
+
 .author{
     float: left;
     left: 0;
@@ -43,18 +44,18 @@ a:active, a:hover, a:visited{
     }
     .author{
         float: left;
-        width:100px;
+        width: 110px;
         margin: 5px;
     }
     .buy-now{
         float: right;
-        width: 100px;
+        width: 110px;
         margin: 5px;
     }
     .social-media img{ 
         margin: 0 5px;
         display: inline;
-        width: 45px;
+        width: 40px;
     }
 
 } 
